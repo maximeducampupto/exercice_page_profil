@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+/* GLOBAL */
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: dodgerblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    margin-top: 40px;
+    color: dodgerblue;
+}
+
+ul li {
+    /* font-weight: bold;*/
+    padding: 0;
+    margin-right: 30px;
+}
+
+img {
+    width: 150px;
+    float: left;
+    border-radius: 50%;
+}
+
+header {
+    text-align: center;
+    padding-right: 150px;
+    margin-top: 150px;
+}
+
+main {
+    margin-top: 150px;
+}
+
+footer {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+/* CLASSES */
+
+.container  {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.square {
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    text-align: center;
+    margin-bottom: 200px;
+    border-radius: 5%;
+}
+
+.square hr {
+    margin-top: 20px;
+    opacity: .5;
+}
+
+.square h4 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: dodgerblue;
+}
+
+.fa-linkedin,.fa-twitter-square,.fa-instagram,.fa-github-square {
+    font-size: 80px;
+    color: dodgerblue;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+i:hover {
+        color: aquamarine;
+}
+
+/* IDs */
+
+#likes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+#description {
+    width: 70%;
+    margin: 0 auto;
+}
